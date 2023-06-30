@@ -1,0 +1,219 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+header a{
+    background-color: var(--cor-contraste);
+    padding: 0.25rem 0.5rem;
+    text-decoration: none;
+    color: var(--cor-principal);
+    font-weight: bold;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+section.home{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.home-direita{
+    margin-left: -10px; margin-right: -10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.home-direita img{
+    width: 100vw;
+    height: 120px;
+    /* height: 108px;  */
+    object-fit: cover;
+    object-position: center 40%;
+}
+.home-esquerda{
+    display: flex;
+    flex-direction: column;
+}
+.home-esquerda h2{
+    font-size: 1.188rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.home-esquerda h2 span{
+    font-size: 1.563rem;
+    display: block;
+}
+.home-esquerda a{
+    background-color: var(--cor-contraste); 
+    align-self: center;
+    padding: 10px;
+    margin-top: 6px;
+    color: var(--cor-principal);
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: -10px; margin-right: -10px;
+    text-transform: uppercase;
+}
+
+/* SOBRE NOS */
+.sobre-nos-esquerda{
+    margin-left: -10px; margin-right: -10px;
+    margin-top:10px;
+}
+.mosaico{
+    display: flex;
+    width: 100vw;
+    column-gap: 6px;
+}
+.mosaico1{
+    width: 50vw;
+    height: 201.434px; 
+    background-color: red;
+    background-image: url(../img/mosaico-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mosaico2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+.mosaico3{
+    display: flex;
+    flex-direction: row;
+    column-gap: 6px;
+}
+.mosaico-3-1{
+    width: 25vw;
+    height: 59.832px; 
+    background-color: var(--cor-secundaria);  
+}
+.mosaico-3-2{
+    width: 25vw;
+    height: 59.832px; 
+    background-color: var(--cor-secundaria);
+    background-image: url(../img/mosaico-3-2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.mosaico-4{
+    height: 110.688px; 
+    background-color: red;
+    background-color: var(--cor-secundaria);
+    background-image: url(../img/mosaico-4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mosaico-5{
+    height: 18.947px; 
+    background-color: var(--cor-secundaria);
+}
+.mosaico-6{
+    margin-top: 6px;
+    width: 100vw;
+    height: 4.986px; 
+    background-color: var(--cor-contraste);
+
+    margin-bottom: 10px;
+}
+.sobre-nos-direita{
+    margin: 0px 10px;
+}
+.sobre-nos-direita p{
+    text-transform: uppercase;
+    font-size: 1.125rem;
+}
+
+/* ENDERECO */
+section.endereco{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.endereco h3{
+    font-size: 1.5625rem; 
+    text-transform: uppercase;
+    font-weight: 400; 
+}
+.endereco address{
+    font-style: normal;
+}
+.endereco address span, .endereco address a{
+    font-family: var(--fonte-numero);
+}
+.endereco address a{
+    text-decoration: none;
+    color: var(--cor-contraste);
+}
+.telefone_whatsapp{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.telefone_whatsapp a{
+    background-color: var(--cor-contraste); 
+    width: 137px; 
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor-principal);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+.telefone_whatsapp a:first-child::before{
+    content: url(../img/whatsapp.png);
+    width: 16px;
+    height: 16px; 
+    margin-right: 10px;
+}
+.telefone_whatsapp a:last-child::before{
+    content: url(../img/email.png);
+    width: 16px;
+    height: 16px; 
+    margin-right: 10px;
+}
+.mapa{
+    margin-left: -10px; margin-right: -10px;
+    margin-top:10px;
+}
+.mapa iframe{
+    width: 100vw;
+    height: 130px;
+}
+.endereco p.satisfacao{
+    text-align: center;
+}
+.endereco p.satisfacao span{
+    display: block;
+    font-family: var(--fonte-numero);
+    font-weight: 400; 
+    text-transform: uppercase;
+}
+
+footer{
+    margin-left: -10px; margin-right: -10px;
+    margin-top:10px;
+    margin-bottom: -10px;
+
+    text-align: center;
+    background-color: var(--cor-contraste);
+    color: var(--cor-principal);
+    text-transform: uppercase;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: var(--cor-principal);
+    font-weight: bold;
+}

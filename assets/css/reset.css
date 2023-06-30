@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Actor;
+    src: url(fontes/Actor/Actor-Regular.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(fontes/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+:root{
+    --cor-principal: #13202A;
+    --cor-contraste: #F1ECE4;
+    --cor-secundaria: #214A60;
+
+    --fonte-letra: Actor;
+    --fonte-numero: Inter;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: var(--cor-principal);
+    color: var(--cor-contraste);
+    font-family: var(--fonte-letra);
+    margin: 10px;
+}
