@@ -1,0 +1,156 @@
+@font-face{
+    font-family: Inter;
+    src: url(fonte/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: Actor;
+    src: url(fonte/Actor/Actor-Regular.ttf);
+}
+:root{
+    --cor-de-fundo: #13202A;
+    --cor-contraste: #F1ECE4;
+    --cor-secundaria: #214A60;
+    --fonte-letras: Actor;
+    --fonte-numero: Inter;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-letras);
+    color: var(--cor-contraste);
+    margin: 21.98px;
+    border: 1px solid rgba(241, 236, 228, 0.20);
+    
+}
+.header{
+   padding: 14.5px 14px;
+   display: flex;
+   justify-content: space-between;
+}
+.header-esquerda{
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+.header-esquerda header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.header-esquerda header h1{
+    font-size: 2.1875rem;;
+    font-weight: normal;
+}
+.header-esquerda header a{
+    text-decoration: none;
+    background-color: var(--cor-contraste);
+    color: var(--cor-de-fundo);
+    font-size: 1.1875rem;
+    padding: 12px 19px;
+}
+.header-esquerda h2.sub{
+    margin-top: 5.69rem;
+    font-size: 26px; 
+}
+.header-esquerda h2.sub span{
+    display: block;
+    font-size: 33px;
+}
+.header-esquerda h2.titulo{
+    font-size: 4.0625rem; 
+}
+.header-esquerda p{
+    text-align: justify;
+    font-size: 1.125rem;
+    text-transform: none;
+    margin-top: 1.19rem;
+    margin-bottom: 3.19rem;
+}
+.header-esquerda a#botao{
+    padding: 1rem 1.87rem; 
+    
+    text-decoration: none;
+    color: var(--cor-de-fundo);
+    background-color: var(--cor-contraste);
+    
+}
+.header-direita{
+    width: 45vw;
+    height: 580px;
+    flex-shrink: 0; 
+    background-repeat: no-repeat;
+    background: url(../img/header_foto.png);
+    background-position: left;
+    position: relative;
+    top: -14px;
+    right: -14px;
+}
+
+
+/* SOBRE NOS */
+.sobre_nos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.mosaico{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.mosaico-linha{
+    width: 622px;
+    height: 10px; 
+    background-color: var(--cor-contraste);
+    position: absolute;
+    top: 1022px;
+}
+.mosaico-1{
+    width: 340px;
+    height: 404px;
+    background-image: url(../img/mosaico-1.png);
+}
+.mosaico-2{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.mosaico-3{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.mosaico-3-1{
+    width: 147px;
+    height: 120px; 
+    background-color: var(--cor-secundaria); 
+}
+.mosaico-3-2{
+    width: 147px;
+    height: 120px; 
+    background-image: url(../img/mosaico-3-2.png); 
+    background-repeat: no-repeat;
+    
+}
+.mosaico-4{
+    width: 274px;
+    height: 222px; 
+    background-image: url(../img/mosaico-4.png);
+}
+.mosaico-5{
+    width: 274px;
+    height: 38px;
+    background-color: var(--cor-secundaria); 
+}
+
+.sobre_nos_resumo{
+    margin-left: 50px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-align: justify;
+}
