@@ -1,0 +1,53 @@
+site, facebook, instgram e tiktok, kwai, chapa3 
+chapa3coren@potenciacao
+@media screen and (min-width: 600px){
+    body{
+        width: 600px;
+        margin: 0 auto;
+        padding: 10px;
+        border: 1px solid white;
+    }
+    .home-direita img, .mosaico, .mosaico-6, .mapa iframe{
+        width: 100%;
+    }
+    .mosaico1{
+        width: 300px;
+    }
+    .mosaico-3-1, .mosaico-3-2{
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 800px){
+    body{
+        width: 1310px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    header{
+        width: 50%;
+    }
+    header h1, header a, .home-esquerda h2, .home-esquerda a{
+        font-weight: normal;
+    }
+    section.home{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        row-gap: 30px;
+    }
+    .home-esquerda{
+        width: 50%;
+    }
+    .home-direita{
+        position: relative;
+        top: -52px;
+        right: -5px;
+    }
+    .home-direita img{
+        width: 630px;
+        min-width: 50%;
+        height: auto; 
+        
+    }
+}

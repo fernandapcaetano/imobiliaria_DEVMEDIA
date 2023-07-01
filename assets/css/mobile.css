@@ -74,7 +74,7 @@ section.home{
 .mosaico1{
     width: 50vw;
     height: 201.434px; 
-    background-color: red;
+    background-color:  var(--cor-secundaria);
     background-image: url(../img/mosaico-1.png);
     background-position: center;
     background-size: cover;
@@ -92,11 +92,13 @@ section.home{
 }
 .mosaico-3-1{
     width: 25vw;
+    
     height: 59.832px; 
     background-color: var(--cor-secundaria);  
 }
 .mosaico-3-2{
     width: 25vw;
+    
     height: 59.832px; 
     background-color: var(--cor-secundaria);
     background-image: url(../img/mosaico-3-2.png);
@@ -106,7 +108,7 @@ section.home{
 }
 .mosaico-4{
     height: 110.688px; 
-    background-color: red;
+    background-color: var(--cor-secundaria);
     background-color: var(--cor-secundaria);
     background-image: url(../img/mosaico-4.png);
     background-position: center;
@@ -157,7 +159,7 @@ section.endereco{
     margin-top: 5px;
     margin-bottom: 5px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .telefone_whatsapp a{
